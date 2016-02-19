@@ -1,0 +1,27 @@
+{
+  "name": "makallio85/answer-me",
+  "description": "Wouldn't it be nice to be able to ask questions from your code?",
+  "type": "library",
+  "require-dev": {
+    "phpunit/phpunit": "^5.2",
+    "squizlabs/PHP_CodeSniffer": "^2.5"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Marko Kallio",
+      "email": "makallio85@gmail.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "makallio85\\AnswerMe\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "makallio85\\AnswerMe\\Test\\": "tests"
+    }
+  }
+}
