@@ -13,7 +13,7 @@ Usage
 -----
 
 ```
-    $answer = AnswerMe::is(1)::lessThan(2);
+    $answer = AnswerMe::is(1)::lessThan(2)::isIt();
     var_dump($answer); //true
 ```
 
